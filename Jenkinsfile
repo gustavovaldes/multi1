@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                build job: "multi2/master"
+                build job: "/multi2/master"
             }
         }
     }
